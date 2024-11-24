@@ -1,0 +1,59 @@
+body {
+    background-color: #121212;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+
+.dota {
+    color: skyblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-list a {
+    color: lightblue;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav-list a:hover {
+    color: #8e08af;
+}
+
+.heroes-list, .dota-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.heroes-list a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.heroes-list a:hover {
+    color: #8e08af;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+    }
+}
